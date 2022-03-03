@@ -8,11 +8,6 @@ import MethodInput from './MethodInput';
 import TagInput from './TagInput';
 import { setExpense } from '../actions';
 
-/**
- * Consultei o repositório de Cristian Brum para resolver essa parte.
- * Link: https://github.com/tryber/sd-011-project-trybewallet/pull/2/commits/509915ffc966093751035625fa747638888af868
- */
-
 const INITIAL_STATE = {
   value: 0,
   description: '',
@@ -42,7 +37,6 @@ class ExpensesForm extends Component {
 
   render() {
     const { value, description, currency, method, tag } = this.state;
-    // console.log(this.props);
     return (
       <form>
         <ValueInput handle={ this.handleChange } value={ value } />

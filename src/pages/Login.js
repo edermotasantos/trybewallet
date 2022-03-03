@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Button from '../components/Button';
 import Input from '../components/Input';
-/**
- * Consultei o repositório da Trybe (tryber/sd-09-live-lecture) para resolver essa parte.
- * Link: https://github.com/tryber/sd-09-live-lectures/blob/lecture/12.2/my-form/src/App.js
- */
 
 const INITIAL_STATE = {
   emailInput: '',

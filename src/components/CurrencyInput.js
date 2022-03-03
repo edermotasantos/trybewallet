@@ -6,7 +6,6 @@ class CurrencyInput extends Component {
   render() {
     const { handle, value } = this.props;
     const { currencies } = this.props;
-    // console.log('handle', handle);
     return (
       <label htmlFor="currency-input">
         Moeda

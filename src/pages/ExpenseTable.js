@@ -16,10 +16,6 @@ class ExpenseTable extends Component {
           </tr>
         </thead>
         <tbody>
-          {/* /**
-          * Consultei o repositório de Julio Filizzola para resolver essa parte.
-          * Link: https://github.com/tryber/sd-011-project-trybewallet/pull/18/files
-          */}
           {expenses
             .map(({
               description,
